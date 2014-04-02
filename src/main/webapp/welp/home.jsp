@@ -64,7 +64,7 @@
 	    <div class="row">
 	      <div class="col-sm-12">
 	        <div class="pull-right"><br><a href="#"><tr8n:tr label="More Cities"/></a></div>
-	        <h4><tr8n:tr label="Welp {city}" token.city="Los Angeles"/></h4>
+	        <h4><tr8n:tr label="Welp {city}" city="Los Angeles"/></h4>
 	        <hr>
 	      </div>
 	    </div>

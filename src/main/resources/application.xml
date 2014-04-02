@@ -17,7 +17,7 @@
 	</interceptors>
 	<default-interceptor-ref name="tr8nStack" />
 	
-    <action name="home" class="com.tr8n.samples.welp.HomeAction">
+    <action name="home" class="com.tr8n.samples.welp.actions.HomeAction">
       <result>/welp/home.jsp</result>
     </action>
   </package>

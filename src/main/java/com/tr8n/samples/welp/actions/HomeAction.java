@@ -1,6 +1,6 @@
-package com.tr8n.samples.welp;
+package com.tr8n.samples.welp.actions;
 
-import com.tr8n.struts.actions.Tr8nAction;
+import com.tr8n.struts2.actions.Tr8nAction;
 
 /**
  * <code>Set welcome message.</code>
