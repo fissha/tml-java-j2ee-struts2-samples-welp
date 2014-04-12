@@ -23,10 +23,4 @@
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
   
-  <jsp-config>
-	  <taglib>
-	    <taglib-uri>/tr8n</taglib-uri>
-	    <taglib-location>/WEB-INF/tags/tr8n.tld</taglib-location>
-	  </taglib>	
-  </jsp-config>
 </web-app>

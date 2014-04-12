@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
-<%@ taglib uri='/tr8n' prefix='tr8n' %>
+<%@ taglib prefix='tr8n' uri='/tr8n-tags' %>
 
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" dir="ltr">
@@ -92,7 +92,7 @@
 	
 	        <div class="media">
 	          <a class="pull-left" href="#">
-	            <div class="media-object media-img"></div>
+	            <span class="media-object media-img"></span>
 	          </a>
 	          <div class="media-body">
 	            <strong>1. <a href="">Ricky's Fish Tacos</a></strong>
@@ -102,7 +102,7 @@
 	            </div>
 	            <div class="media">
 	              <a class="pull-left" href="#">
-	                <div class="media-object media-img-sm"></div>
+	                <span class="media-object media-img-sm"></span>
 	              </a>
 	              <div class="media-body">
 	                <p>Luckily, the perfect hot day food is a fish taco.</p>
@@ -114,17 +114,17 @@
 	
 	        <div class="media">
 	          <a class="pull-left" href="#">
-	            <div class="media-object media-img"></div>
+	            <span class="media-object media-img"></span>
 	          </a>
 	          <div class="media-body">
-	            <strong>2. <a href="">Genwa Korean Bbq</strong>
+	            <strong>2. <a href="">Genwa Korean Bbq</a></strong>
 	            <div class="text-muted">
 	              <img src="assets/images/3-stars.png" title="<tr8n:trl label="{num} out of {count|| star}" token.num="3" token.count="5" />" />
 	              <tr8n:tr label="{count|| Review}" token.count="567" />
 	            </div>
 	            <div class="media">
 	              <a class="pull-left" href="#">
-	                <div class="media-object media-img-sm"></div>
+	                <span class="media-object media-img-sm"></span>
 	              </a>
 	              <div class="media-body">
 	                <p>I love love love the fact that you get 25 side dishes.</p>
@@ -135,17 +135,17 @@
 	
 	        <div class="media">
 	          <a class="pull-left" href="#">
-	            <div class="media-object media-img"></div>
+	            <span class="media-object media-img"></span>
 	          </a>
 	          <div class="media-body">
-	            <strong>3. <a href="">Kang Hodong Baekjeong</strong>
+	            <strong>3. <a href="">Kang Hodong Baekjeong</a></strong>
 	            <div class="text-muted">
 	              <img src="assets/images/2-stars.png" title="<tr8n:trl label="{num} out of {count|| star}" token.num="2" token.count="5" />"/>
 	              <tr8n:tr label="{count|| Review}" token.count="1" />
 	            </div>
 	            <div class="media">
 	              <a class="pull-left" href="#">
-	                <div class="media-object media-img-sm"></div>
+	                <span class="media-object media-img-sm"></span>
 	              </a>
 	              <div class="media-body">
 	                <p>Thick slices of juicy pastrami on rye hits the spot every time.</p>
@@ -156,10 +156,10 @@
 	
 	        <div class="media">
 	          <a class="pull-left" href="#">
-	            <div class="media-object media-img"></div>
+	            <span class="media-object media-img"></span>
 	          </a>
 	          <div class="media-body">
-	            <strong>4. <a href="">Guisados</strong>
+	            <strong>4. <a href="">Guisados</a></strong>
 	            <div class="text-muted">
 	              <img src="assets/images/1-stars.png" title="<tr8n:trl label="{num} out of {count|| star}" token.num="1" token.count="5" />"/>
 	              <tr8n:tr label="{count|| Review}" token.count="14" />
@@ -167,7 +167,7 @@
 	
 	            <div class="media">
 	              <a class="pull-left" href="#">
-	                <div class="media-object media-img-sm"></div>
+	                <span class="media-object media-img-sm"></span>
 	              </a>
 	              <div class="media-body">
 	                <p>I can't wait to introduce more people to these orgasmic tacos.</p>
@@ -200,7 +200,7 @@
 	
 	        <div class="media">
 	          <a class="pull-left" href="#">
-	            <div class="media-object media-img"></div>
+	            <span class="media-object media-img"></span>
 	          </a>
 	          <div class="media-body">
 	            <strong>
