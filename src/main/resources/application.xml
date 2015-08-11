@@ -2,23 +2,18 @@
 <!DOCTYPE struts PUBLIC
           "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"       
           "http://struts.apache.org/dtds/struts-2.0.dtd">
-<!-- 
-  - This file is included by the struts.xml file as an example
-  - of how to break up the configuration file into multiple files.
--->
 <struts>
-  <package name="default" namespace="/" extends="struts-default">
-	<interceptors>
-	    <interceptor name="tr8n" class="com.tr8n.struts.interceptors.Tr8nInterceptor"/>
-	    <interceptor-stack name="tr8nStack">
-	      <interceptor-ref name="tr8n" />
-	      <interceptor-ref name="defaultStack" />
-	    </interceptor-stack>
-	</interceptors>
-	<default-interceptor-ref name="tr8nStack" />
-	
-    <action name="home" class="com.tr8n.samples.welp.actions.HomeAction">
-      <result>/welp/home.jsp</result>
-    </action>
+  <package name="default" namespace="/home" extends="struts-default">
+		<interceptors>
+		    <interceptor name="tml" class="com.translationexchange.struts.interceptors.TmlInterceptor"/>
+		    <interceptor-stack name="tmlStack">
+		      <interceptor-ref name="tml" />
+		      <interceptor-ref name="defaultStack" />
+		    </interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="tmlStack" />
+	  <action name="index" class="com.translationexchange.samples.struts.welp.actions.HomeAction">
+	    <result>/home/index.jsp</result>
+	  </action>
   </package>
 </struts>

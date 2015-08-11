@@ -1,3 +1,3 @@
 <% 
-  response.sendRedirect("/welp/home");
+  response.sendRedirect("/home/index");
 %>

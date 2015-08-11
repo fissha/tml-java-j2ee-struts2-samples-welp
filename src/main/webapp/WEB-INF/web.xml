@@ -4,11 +4,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
   <display-name>Welp</display-name>
-
+  
   <listener> 
-    <listener-class>com.tr8n.samples.welp.listeners.WelpListener</listener-class> 
+    <listener-class>com.translationexchange.samples.struts.welp.listeners.WelpListener</listener-class> 
   </listener> 
 
+  <servlet>
+    <servlet-name>tml_cache_invalidator</servlet-name>
+    <servlet-class>com.translationexchange.j2ee.servlets.CacheInvalidationServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>tml_cache_invalidator</servlet-name>
+    <url-pattern>/tml/upgrade</url-pattern>
+  </servlet-mapping>
+  
   <filter>
     <filter-name>struts2</filter-name>
     <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
