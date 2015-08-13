@@ -13,7 +13,7 @@
 		</interceptors>
 		<default-interceptor-ref name="tmlStack" />
 	  <action name="index" class="com.translationexchange.samples.struts.welp.actions.HomeAction">
-	    <result>/home/index.jsp</result>
+	    <result>/WEB-INF/views/home/index.jsp</result>
 	  </action>
   </package>
 </struts>
